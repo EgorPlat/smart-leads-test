@@ -1,0 +1,24 @@
+.scenarios-list {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.scenarios-list .warning {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.14);
+    padding: 15px;
+}
+
+.scenarios-list .scenario-wrapper {
+    width: 600px;
+    background-color: rgba(128, 128, 128, 0.181);
+    border-radius: 5px;
+    padding: 15px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: calc(100% - 80px) 80px;
+}

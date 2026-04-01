@@ -1,0 +1,72 @@
+.custom-condition-node {
+  padding: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+  width: 180px;
+  text-align: center;
+  position: relative;
+  color: black;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.node-content {
+  margin: 8px 0;
+}
+
+.node-label {
+  font-weight: bold;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+.node-input {
+    width: 100%;
+    border: 1px solid #ffb74d;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.handles-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    position: relative;
+}
+
+.handle-wrapper {
+    flex: 1;
+    position: relative;
+    text-align: center;
+}
+
+.handle-top {
+    background: #555;
+    width: 8px;
+    height: 8px;
+}
+
+.handle-true {
+    background: #4caf50;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.handle-false {
+    background: #f44336;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.handle-label {
+    font-size: 10px;
+    display: block;
+    margin-top: 14px;
+}
+
+.custom-condition-node.selected {
+    border: 2px solid #4caf50 !important;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.3);
+}
